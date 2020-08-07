@@ -1,0 +1,25 @@
+C:\xampp\htdocs\Gestão Boletos\bin\Debug\Gestão Boletos.exe.config
+C:\xampp\htdocs\Gestão Boletos\bin\Debug\Gestão Boletos.exe
+C:\xampp\htdocs\Gestão Boletos\bin\Debug\Gestão Boletos.pdb
+C:\xampp\htdocs\Gestão Boletos\bin\Debug\Interop.AcroPDFLib.dll
+C:\xampp\htdocs\Gestão Boletos\bin\Debug\AxInterop.AcroPDFLib.dll
+C:\xampp\htdocs\Gestão Boletos\obj\Debug\Gestão Boletos.csprojAssemblyReference.cache
+C:\xampp\htdocs\Gestão Boletos\obj\Debug\Interop.AcroPDFLib.dll
+C:\xampp\htdocs\Gestão Boletos\obj\Debug\AxInterop.AcroPDFLib.dll
+C:\xampp\htdocs\Gestão Boletos\obj\Debug\Gestão Boletos.csproj.ResolveComReference.cache
+C:\xampp\htdocs\Gestão Boletos\obj\Debug\Gestão_Boletos.Form1.resources
+C:\xampp\htdocs\Gestão Boletos\obj\Debug\Gestão_Boletos.Properties.Resources.resources
+C:\xampp\htdocs\Gestão Boletos\obj\Debug\Gestão Boletos.csproj.GenerateResource.cache
+C:\xampp\htdocs\Gestão Boletos\obj\Debug\Gestão Boletos.exe
+C:\xampp\htdocs\Gestão Boletos\obj\Debug\Gestão Boletos.pdb
+C:\xampp\htdocs\Gestão Boletos\bin\Debug\itextsharp.dll
+C:\xampp\htdocs\Gestão Boletos\bin\Debug\itextsharp.xml
+C:\xampp\htdocs\Gestão Boletos\obj\Debug\Gestão Boletos.csproj.CopyComplete
+C:\xampp\htdocs\Gestão Boletos\bin\Debug\ClosedXML.dll
+C:\xampp\htdocs\Gestão Boletos\bin\Debug\DocumentFormat.OpenXml.dll
+C:\xampp\htdocs\Gestão Boletos\bin\Debug\ExcelNumberFormat.dll
+C:\xampp\htdocs\Gestão Boletos\bin\Debug\System.IO.Packaging.dll
+C:\xampp\htdocs\Gestão Boletos\bin\Debug\ClosedXML.pdb
+C:\xampp\htdocs\Gestão Boletos\bin\Debug\ClosedXML.xml
+C:\xampp\htdocs\Gestão Boletos\bin\Debug\DocumentFormat.OpenXml.xml
+C:\xampp\htdocs\Gestão Boletos\bin\Debug\ExcelNumberFormat.xml
