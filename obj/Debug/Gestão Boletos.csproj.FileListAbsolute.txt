@@ -23,3 +23,7 @@ C:\xampp\htdocs\Gestão Boletos\bin\Debug\ClosedXML.pdb
 C:\xampp\htdocs\Gestão Boletos\bin\Debug\ClosedXML.xml
 C:\xampp\htdocs\Gestão Boletos\bin\Debug\DocumentFormat.OpenXml.xml
 C:\xampp\htdocs\Gestão Boletos\bin\Debug\ExcelNumberFormat.xml
+C:\xampp\htdocs\Gestão Boletos\bin\Debug\Gestão Boletos.exe.manifest
+C:\xampp\htdocs\Gestão Boletos\bin\Debug\Gestão Boletos.application
+C:\xampp\htdocs\Gestão Boletos\obj\Debug\Gestão Boletos.exe.manifest
+C:\xampp\htdocs\Gestão Boletos\obj\Debug\Gestão Boletos.application

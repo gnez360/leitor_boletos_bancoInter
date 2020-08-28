@@ -67,24 +67,67 @@ namespace Gestão_Boletos
 
                         var searchResult = res.Where(p => p.Text.Contains("Nosso Número")).OrderBy(p => p.Y).Reverse().ToList();
 
+                        
+                        var chave = res[9].Text;
+                        var numero = "";
+                        var data_vencimento_aux = "";
+                        string[] numero_aux;
+                        var nome = "";
+                        string[] numero_separado;
+                        string numero_barra="";
+                        string[] numero_hifen;
+                        string numero_final = "";
+                        string[] data_vencimento;
+                        string[] data_vencimento_separa;
 
-                        var numero = res[9].Text;
-                        var data_vencimento_aux =  res[4].Text;
-                        var nome = System.IO.Path.GetFileNameWithoutExtension(file);
-                       
-                        string[] numero_aux = numero.Split(' ');
+                        if (chave == "Autenticação Mecânica")
+                        {                            
+                            numero = res[10].Text;                                                      
 
-                        string[] numero_separado = numero_aux[5].Split('/');
+                            nome = System.IO.Path.GetFileNameWithoutExtension(file);
 
-                        string numero_barra = numero_separado[1]+ '/' + numero_separado[2];
-                      
-                        string[] numero_hifen = numero_barra.Split('-');
+                            numero_aux = numero.Split(' ');                          
 
-                        string numero_final = numero_hifen[0] + numero_hifen[1];
+                            numero_separado = numero_aux[1].Split('/');
 
-                        string[] data_vencimento =  data_vencimento_aux.Split(' ');
+                            numero_barra = numero_separado[1] + '/' + numero_separado[2];
 
-                        dgDados.Rows.Add(nome, numero_final, data_vencimento[4]);                    
+                            numero_hifen = numero_barra.Split('-');
+
+                            numero_final = numero_hifen[0] + numero_hifen[1];                                                     
+
+                            data_vencimento_aux = res[6].Text;
+
+                            data_vencimento_separa = data_vencimento_aux.Split(' ');                          
+
+                            data_vencimento = data_vencimento_separa;
+
+                            dgDados.Rows.Add(nome, numero_final, data_vencimento[0]);
+
+                        }
+                        else
+                        {
+                            numero = res[9].Text;
+
+                            data_vencimento_aux = res[4].Text;
+                            nome = System.IO.Path.GetFileNameWithoutExtension(file);
+
+                            numero_aux = numero.Split(' ');
+
+                            numero_separado = numero_aux[5].Split('/');
+
+                            numero_barra = numero_separado[1] + '/' + numero_separado[2];
+
+                            numero_hifen = numero_barra.Split('-');
+
+                            numero_final = numero_hifen[0] + numero_hifen[1];
+
+                            data_vencimento = data_vencimento_aux.Split(' ');
+
+                            dgDados.Rows.Add(nome, numero_final, data_vencimento[4]);
+                        }
+
+                                         
                     }
                 }
             }
