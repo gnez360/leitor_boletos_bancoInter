@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="Gestão Boletos.exe" version="1.0.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="Gestão Boletos.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
   <application />
   <entryPoint>
     <assemblyIdentity name="Gestão Boletos" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
@@ -49,7 +49,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>uRASbLYLntjC00zCD3AL0wjs0f8ujwJH/hmljY/GnXI=</dsig:DigestValue>
+        <dsig:DigestValue>7MMFiNeB3/Bpz2Tba23JcH7jhT6nIGR1Bm3eTD+pFmw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -90,14 +90,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Gestão Boletos.exe" size="16336">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Gestão Boletos.exe" size="40912">
       <assemblyIdentity name="Gestão Boletos" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>NdOuBcakNVMGcombRBSOwNjJF1fltcc2UFc3gyn8jR8=</dsig:DigestValue>
+        <dsig:DigestValue>32L2t+umIywylOI6J9/VyIwflx8FmbjWr7yZqCFE0Ag=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -109,7 +109,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>OezBky+QxdJRuZQGJ4u68r1Ivh7cggcyMm3DCD5q8Qw=</dsig:DigestValue>
+        <dsig:DigestValue>p8NCh4+X6VA/Q8pkykoojgdK9Im485dhfm1KM8L+ntQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

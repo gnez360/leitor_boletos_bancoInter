@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.btCarregar = new System.Windows.Forms.Button();
             this.dgDados = new System.Windows.Forms.DataGridView();
             this.Nome = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -108,6 +109,7 @@
             this.Controls.Add(this.dgDados);
             this.Controls.Add(this.btCarregar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "Gestão de Boletos";
